@@ -1,48 +1,67 @@
-body{
-    background: hsl(47, 88%, 63%);
-    font-size: 16px;
-    display:flex;
-    justify-content: center;
-    font-family: "Figtree", sans-serif;
+body {
+  background: hsl(47, 88%, 63%);
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  font-family: "Figtree", sans-serif;
 }
 
-.main-image{
-    position:relative;
-    left:25%;
-    right:35%;
+.main-img {
+  position: relative;
+  left:4%;
+  border-radius: 5px;
 }
 
-
-.container{
-    background:hsl(0, 0%, 100%);
-    border:hsl(0, 0%, 7%) ;
+.container {
+  /* margin:20px; */
+  background: hsl(0, 0%, 100%);
+  border: hsl(0, 0%, 7%);
+  width: 56%;
+  height: 55%;
+  border-radius: 5px;
 }
 
-#paragraph{
-    color:hsl(0, 0%, 50%);
+h2{
+ position:relative;
+  left:6%;
+
+}
+#paragraph {
+  color: hsl(0, 0%, 50%);
+  position:relative;
+  left:6%;
 }
 
-.learning-tab{
-    background:hsl(47, 88%, 63%);
-    width:10%;
-    height:5%;
-    border-radius: 5px;
+.learning-tab {
+  margin:18px;
+  position:relative;
+  right:50%;
+  background: hsl(47, 88%, 63%);
+  width: 22%;
+  height: 30%;
+  border-radius: 5px;
+  position:relative;
+  left:6%;
+  font-weight:bold;
+  text-align: center;
 }
 
-
-#publishing-date{
-    font-weight:500;
+#publishing-date {
+  font-weight: 500;
+  position:relative;
+  left:6%;
 }
 
-.avatar-picture{
-    font-weight:800;
+.avatar-picture {
+  font-weight: 800;
+  position:relative;
+  left:6%;
 }
 
-
-
-.attribution { 
-    font-size: 11px; text-align: center; 
+.attribution {
+  font-size: 11px;
+  text-align: center;
 }
-    .attribution a {
-         color: hsl(228, 45%, 44%);
-         }
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
