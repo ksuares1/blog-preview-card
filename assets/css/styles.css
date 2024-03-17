@@ -56,13 +56,14 @@ h2 {
 .avatar-picture {
   font-weight: 800;
   position: relative;
-  left: 6%;
+  left:5%;
 }
 
 .author {
   position: relative;
-  top: 0;
-  left: 35%;
+  left:25%;
+  top:-55px;
+  font-weight: 500; 
 }
 
 .attribution {
