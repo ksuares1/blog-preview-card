@@ -19,9 +19,13 @@ body {
   background: hsl(0, 0%, 100%);
   border: hsl(0, 0%, 7%);
   width: 28%;
-  height: 55%;
+  height: 35%;
   border-radius: 5px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5); /* Add a black shadow */
+  border-color: 2px solid black;
+  box-sizing: border-box;
 }
+
 
 h2 {
   position: relative;
